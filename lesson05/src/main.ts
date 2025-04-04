@@ -92,7 +92,7 @@ console.log(John.id)
 //static means that count does not apply to any instantiation of the class, it applies to the class directly itself
 // It also does not apply to any object that you instantiate to the class
 
-//////////////////////////////////////////////////////////////
+
 class Bands {
     private dataState: string[]
     constructor(){
