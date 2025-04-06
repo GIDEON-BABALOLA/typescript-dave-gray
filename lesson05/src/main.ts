@@ -116,3 +116,7 @@ class Bands {
 const MyBands =  new Bands()
 MyBands.data = ["Neil Young", "Led Zep"]
 console.log(MyBands.data)
+MyBands.data = [...MyBands.data, "ZZ Top"]
+console.log(MyBands.data)
+MyBands.data = ["Van Halen", "dave"]
+console.log(MyBands.data)
