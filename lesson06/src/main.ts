@@ -97,10 +97,10 @@ const logStudentKey = (stadium: Stadium, key: keyof Stadium): void => {
 logStudentKey(SanSiro, "name")
 
 ///////////////////////////////////////////////////////
-// linear types are not allowed in interfaces, but what we can
+// literal types are not allowed in interfaces, but what we can
 // use is a record utility type
 interface Income {
-   // [key: "salary" | "bonus"]: number
+//    [key: "salary" | "bonus"]: number
 }
 //Record is a utility type
 type Streams = "salary" | "bonus" | "sidehustle"
